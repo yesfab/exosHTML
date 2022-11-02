@@ -32,6 +32,7 @@ footer p{
     background-color: red;
     color: white;
     flex: 1;
+    order: 3;
 }
 nav ul{
     padding: 0;
@@ -55,14 +56,84 @@ a:hover{
 /*ARTICLE*/
 .container2 article{
     flex: 3;
+    order: 1;
+    margin: 10px 10px;
+}
+article p{
+    color: red;
+}
+.num-container{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+#flex-num5{
+    background: grey;
+    padding: 5px;
+    margin: 5vh 0 5vh 0;
+    flex: 2;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+#flex-num4{
+    background: lightgrey;
+    padding: 5px;
+    margin: 5vh 0 5vh 0;
+    flex: 2;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+#flex-num3{
+    background: red;
+    padding: 5vh 0 5vh 0;
+    flex: 3;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+#flex-num2{
+    background: orange;
+    padding: 5px;
+    margin: 5vh 0 5vh 0;
+    flex: 2;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+#flex-num1{
+    background: yellow;
+    padding: 5px;
+    margin: 5vh 0 5vh 0;
+    flex: 2;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
 }
 
 /*ASIDE*/
 .container2 aside{
     flex: 1;
     background-color: blue;
+    order: 2;
 }
 aside p{
     margin: 10px 10px;
     color: white;
 }
+
