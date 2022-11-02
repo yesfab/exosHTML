@@ -30,13 +30,13 @@ nav ul li a{
 a:hover{
     background-color: whitesmoke; 
     color: black;
-    padding: 5px;
+    padding: 5px 150px 5px 5px;
    }
 
 .container2{
     display: flex;
     flex-direction: column;
-    flex: 8;
+    flex: 9;
 }
 .container2 header{
     height: 150px;
@@ -44,7 +44,7 @@ a:hover{
     margin: 0;
 }
 .container2 header p{
-    margin: 5px 5px;
+    margin: 10px 10px;
 }
 
 .container3{
@@ -55,6 +55,9 @@ a:hover{
 .container3 aside{
     flex: 1;
     background-color: beige;
+}
+.container3 aside p{
+    margin: 10px 10px;
 }
 
 .container4{
@@ -68,4 +71,8 @@ a:hover{
 .container4 footer{
     flex: 1;
     background-color: greenyellow;
+}
+.container3 footer p,
+.container3 article p{
+    margin: 10px 10px;
 }
