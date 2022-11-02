@@ -18,10 +18,12 @@ input[type=text], input[type=date], select, option{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    float: right;
 }
-label {
+.container2 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
+    float: right;
 }
 input[type=submit] {
     background-color: grey;
@@ -51,6 +53,7 @@ input[type=submit]:hover {
 
 .container3{
     flex: 2;
+    margin-left: 20px;
 }
 legend {
     padding: 3px 6px;
@@ -58,4 +61,14 @@ legend {
 
 .container3 input {
     margin: .4rem;
+}
+
+.button{
+    background-color: beige;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button input{
+    margin-bottom: 10px;
 }
