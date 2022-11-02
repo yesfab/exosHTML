@@ -6,22 +6,37 @@ body{
 }
 .container1{
     display: flex;
-    flex: 1;
+    flex: 2;
+    background-color: red;
 }
 .container1 nav{
-    background-color: red;
     color: white;
     height: 790px;
 }
+nav ul{
+    padding: 0;
+    margin-left: 10px;
+}
 nav ul li{
     list-style: none;
-    margin: 10px;
+    margin: 15px;
+    
 }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+a:hover{
+    background-color: whitesmoke; 
+    color: black;
+    padding: 5px;
+   }
 
 .container2{
     display: flex;
     flex-direction: column;
-    flex: 12;
+    flex: 8;
 }
 .container2 header{
     height: 150px;
