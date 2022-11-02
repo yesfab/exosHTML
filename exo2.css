@@ -59,8 +59,9 @@ a:hover{
     order: 1;
     margin: 10px 10px;
 }
-article p{
+article .art-p{
     color: red;
+    margin-top: 30vh;
 }
 .num-container{
     list-style: none;
@@ -70,6 +71,7 @@ article p{
     display: flex;
     flex-direction: row-reverse;
     flex: 1;
+    float: right;
 }
 #flex-num5{
     background: grey;
