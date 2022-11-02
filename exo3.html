@@ -14,7 +14,7 @@
 
                 <div class="row">
                   <div class="col-25">
-                    <label for="name">Name</label>
+                    <label>Name</label>
                   </div>
                   <div class="col-75">
                     <input type="text" name="name">
@@ -23,7 +23,7 @@
 
                 <div class="row">
                     <div class="col-25">
-                      <label for="phone">Phone</label>
+                      <label>Phone</label>
                     </div>
                     <div class="col-75">
                       <input type="text" name="phone">
@@ -32,7 +32,7 @@
 
                 <div class="row">
                     <div class="col-25">
-                      <label for="email">Email</label>
+                      <label>Email</label>
                     </div>
                     <div class="col-75">
                       <input type="text" name="email">
@@ -41,19 +41,19 @@
 
                 <div class="row">
                     <div class="col-25">
-                      <label for="date">Pickup Date/Time</label>
+                      <label>Pickup Date/Time</label>
                     </div>
                     <div class="col-75">
-                      <input type="date" name="datetime`">
+                      <input type="date" name="datetime">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-25">
-                      <label for="place">Pickup Place</label>
+                      <label>Pickup Place</label>
                     </div>
                     <div class="col-75">
-                        <select id="country" name="country">
+                        <select>
                             <option value="test">TEST</option>
                         </select>
                     </div>
@@ -61,7 +61,7 @@
 
                 <div class="row">
                     <div class="col-25">
-                      <label for="place">Dropoff Place</label>
+                      <label>Dropoff Place</label>
                     </div>
                     <div class="col-75">
                       <input type="text" name="place">
@@ -70,8 +70,36 @@
             </form>
         </div>
         <div class="container3">
+            
+            <legend>Which taxi do you require ?</legend>
+        
+            <input type="radio" name="car">
+            <label for="car">Car</label><br>
+        
+            <input type="radio" name="van">
+            <label for="van">Van</label><br>
+        
+            <input type="radio" name="tuktuk">
+            <label for="tuktuk">Tuk Tuk</label><br>
 
+
+            <legend>Extras</legend>
+        
+            <input type="checkbox" name="seat">
+            <label>Baby seat</label><br>
+        
+            <input type="checkbox" name="access">
+            <label>Wheelchair access</label><br>
+        
+            <input type="checkbox" name="seat">
+            <label>Stock tip</label><br>
+            
         </div>
+        
     </div>
+
+    <input type="submit" value="Submit Booking">
+
+
 </body>
 </html>
