@@ -3,11 +3,14 @@ body{
     display: flex;
     flex-direction: row;
 }
+
+
 .container1{
     display: flex;
     flex: 2;
     background-color: red;
 }
+/*NAV*/
 .container1 nav{
     color: white;
     height: 790px;
